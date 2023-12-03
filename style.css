@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-right: 10px;
+}
+
+#imageContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tableContainer {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#tableContainer,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
